@@ -17,7 +17,5 @@ const titleCased = () => {
     const arr = line.map(
       (casz)=> casz.charAt(0).toUpperCase() + casz.slice(1)
     );
-    const result = arr.join(" ");
-    return result
   })
 }
